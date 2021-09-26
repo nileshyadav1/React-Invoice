@@ -1,0 +1,35 @@
+.not-found{
+    color:#ffffff;
+   
+    height:100vh;
+    align-items: center;
+    
+}
+
+.main-section{
+    flex:0.8;
+    
+}
+
+.img-not-found{
+    width:500px;
+    max-width:fit-content;
+    display: flex;
+    flex:0.7;
+    /* background: green; */
+   
+
+}
+
+.img-not-found img{
+    width:100%
+}
+
+.text{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.return button{
+ font-size:18px;
+}

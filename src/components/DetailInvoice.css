@@ -1,0 +1,172 @@
+/* .invoice-view { */
+.nav-link {
+  margin-bottom: 32px;
+  align-items: center;
+  color: #fff;
+
+  font-size: 12px;
+}
+.nav-link img {
+  margin-right: 16px;
+  width: 7px;
+  height: 10px;
+}
+.header,
+.invoice-details {
+  background-color: var(--bg-light);
+  border-radius: 20px;
+}
+.header {
+  align-items: center;
+  padding: 24px 32px;
+  font-size: 12px;
+}
+.header .left {
+  align-items: center;
+  flex: 0.7;
+}
+
+.header .left span {
+  color: #dfe3fa;
+  margin-right: 16px;
+}
+.header .right {
+  flex: 1;
+
+  justify-content: flex-end;
+}
+
+.header .right button {
+  color: #fff;
+}
+.invoice-details {
+  padding: 48px;
+  margin-top: 24px;
+}
+
+.invoice-details .top div {
+  color: #dfe3fa;
+  flex: 1;
+}
+.invoice-details .top .left {
+  font-size: 12px;
+  text-align: left;
+}
+
+.top .left p:first-child {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.top .left p:nth-child(2) {
+  font-size: 16px;
+}
+.top .left span {
+  color: #888eb0;
+}
+.top .right {
+  font-size: 12px;
+  align-items: flex-end;
+}
+
+.middle {
+  margin-top: 50px;
+  color: #dfe3fa;
+  gap: 16px;
+}
+
+.middle .send-to {
+  flex: 2;
+}
+.middle h4 {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.middle p {
+  font-size: 16px;
+}
+
+.middle .bill,
+.payment {
+  flex: 1;
+}
+
+.payment h4:nth-child(3) {
+  margin-top: 32px;
+}
+.payment p {
+  font-weight: 600;
+}
+
+.bill p:nth-child(2) {
+  font-size: 16px;
+}
+.bill p:nth-child(3) {
+  margin-top: auto;
+}
+.bill p {
+  font-size: 12px;
+}
+
+.bottom {
+  margin-top: 50px;
+}
+.billing-items {
+  padding: 32px;
+  border-radius: 20px 20px 0 0;
+  background-color: var(--amount-light);
+}
+
+.billing-items .heading {
+  color: #dfe3fa;
+  font-size: 12px;
+  margin-bottom: 32px;
+}
+.billing-items .heading p:first-child {
+  flex: 3;
+  text-align: left;
+}
+.billing-items .heading p {
+  flex: 1;
+  text-align: right;
+}
+
+.billing-items .item {
+  margin-bottom: 32px;
+  font-size: 13px;
+  color: #fff;
+}
+
+.billing-items .item:last-child {
+  margin-bottom: 0;
+}
+
+.billing-items .item p:first-child {
+  flex: 3;
+  text-align: left;
+}
+.billing-items .item p {
+  flex: 1;
+  text-align: right;
+}
+
+.total {
+  color: #fff;
+  padding: 32px;
+
+  background-color: var(--amount-dark);
+  align-items: center;
+  border-radius: 0 0 20px 20px;
+}
+
+.total p {
+  flex: 1;
+  font-size: 12px;
+}
+.total p:nth-child(2) {
+  font-size: 28px;
+  text-align: right;
+}
+/* } */

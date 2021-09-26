@@ -1,0 +1,33 @@
+header {
+  z-index: 99;
+  flex-direction: row;
+  
+  background-color: var(--bg-light);
+  /* background-color: #48cae4; */
+}
+
+header .branding{
+    border-radius: 0 20px 20px 0;
+    background-color: #7c5dfa;
+    justify-content: center;
+    padding: 24px;
+}
+
+.branding img{
+    width: auto;
+    
+    height: 30px;
+}
+
+@media (min-width: 900px) {
+  header {
+    min-height: 100%;
+    min-width: 90px;
+    flex-direction: column;
+    border-radius: 0 20px 20px 0;
+  }
+
+ header .branding {
+    width: 100%;
+  }
+}

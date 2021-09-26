@@ -1,0 +1,111 @@
+.home {
+  color: #ffffff;
+}
+
+.home .heading {
+  margin-bottom: 65px;
+}
+
+.heading .left,
+.heading .right {
+  flex: 1;
+}
+
+.right {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button,
+.filter {
+  align-items: center;
+}
+
+.right span {
+  font-size: 12px;
+}
+
+.filter {
+  position: relative;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.filter img {
+  margin-left: 12px;
+  width: 9px;
+  height: 5px;
+}
+
+.filter-menu {
+    width: 120px;
+    position: absolute;
+    top: 25px;
+    list-style: none;
+    background-color:var(--bg-light);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+   
+  }
+
+  .filter-menu  li {
+    cursor: pointer;
+    font-size: 12px;
+    padding: 10px 20px;
+   
+  }
+
+  .filter-menu li:hover {
+    color: var(--bg-light);
+    background-color: #fff;
+  }
+
+.button-home{
+   
+    background-color: #7c5dfa ;
+  
+   cursor: pointer;
+    padding: 8px 10px;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    font-size: 12px;
+    margin-right: 8px;
+    color: #fff;
+}
+
+.button-home .inner-button{
+    margin-right: 8px;
+  
+          border-radius: 50%;
+          padding: 8px;
+          align-items: center;
+          justify-content: center;
+          background-color: #fff;
+}
+
+.inner-button img{
+    width: 10px;
+    height: 10px;
+   
+}
+
+.empty {
+  margin-top: 160px;
+  align-items: center;
+ 
+}
+.empty img {
+  width: 214px;
+  height: 200px;
+}
+.empty h3 {
+  font-size: 20px;
+  margin-top: 40px;
+}
+.empty p {
+  text-align: center;
+  max-width: 224px;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 16px;
+}
