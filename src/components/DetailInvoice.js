@@ -58,12 +58,12 @@ const DetailInvoice = () => {
         invoicePending: false
       })
         .then((response) => {
-          console.log("REsponse", response);
+         
           dispatch(getCurrentInvoices(invoiceId));
           resolve(response);
         })
         .catch((error) => {
-          console.log(" Error", error);
+        
           reject(error);
         });
     });
@@ -79,7 +79,7 @@ const DetailInvoice = () => {
         invoiceDraft :false,
       })
         .then((response) => {
-          console.log("REsponse", response);
+        
           dispatch(getCurrentInvoices(invoiceId));
           resolve(response);
         })
@@ -138,10 +138,11 @@ const DetailInvoice = () => {
           <div className="invoice-details flex flex-column">
             <div className="top flex">
               <div className="left ">
-                <p>
+              { CurrentInvoice.invoiceID &&  <p>
                   <span>#</span>
                   {CurrentInvoice.invoiceID.slice(0, 6)}
                 </p>
+                }
                 <p>{CurrentInvoice.productDescription}</p>
               </div>
               <div className="right flex flex-column">

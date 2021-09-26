@@ -23,7 +23,7 @@ const Home = () => {
 
   useEffect(() => {
     dispatch(getAllInvoices());
-    console.log("Process Env", process.env)
+    
   }, [dispatch]);
 
   const handleDispatch = () => {
@@ -58,7 +58,7 @@ const Home = () => {
 
 
     setAllInvoices(filteredData);
-    console.log("Filtered Data",filteredData);
+   
 
 
   }, [invoices, filteredInvoice]);

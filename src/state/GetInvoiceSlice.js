@@ -102,7 +102,7 @@ const GetInvoiceSlice = createSlice({
     [getCurrentInvoices.pending]: (state, ) => {
      
       state.invoiceLoaded = true;
-      console.log("Get Current Invoice Pending",state.invoiceLoaded)
+      
      
     },
     
@@ -111,7 +111,7 @@ const GetInvoiceSlice = createSlice({
       
      state.currentInvoice =payload.data()
      
-      console.log("Fulfilled", state.invoiceLoaded)
+    
      
     },
    
