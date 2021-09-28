@@ -181,7 +181,7 @@ const DetailInvoice = () => {
                   <p>Total</p>
                 </div>
                 
-                { CurrentInvoice.invoiceItemList.map((item )=>(
+                { CurrentInvoice.invoiceItemList?.map((item )=>(
                 <div className="item flex" key={item.id}>
                   <p>{item.itemName}</p>
                   <p>{item.qty}</p>
